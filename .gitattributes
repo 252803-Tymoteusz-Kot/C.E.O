@@ -1,0 +1,10 @@
+*                       linguist-vendored linguist-generated text=auto
+
+game/**                 -linguist-vendored -linguist-generated
+addons/Ceo_Dev/**       -linguist-vendored -linguist-generated
+
+*.gd                    diff=python
+*.png                   -diff -merge -text
+
+.gitignore              export-ignore
+.gitattributes          export-ignore
