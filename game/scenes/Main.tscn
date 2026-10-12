@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://vplxqyvm8l8s"]
+
+[node name="Main" type="Node" unique_id=1382631510]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=526551888]
+
+[node name="Panel" type="Panel" parent="CanvasLayer" unique_id=1777452641]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="CanvasLayer/Panel" unique_id=477564580]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 88
+text = "HELLO WORLD"
+horizontal_alignment = 1
+vertical_alignment = 1
