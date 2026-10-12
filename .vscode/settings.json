@@ -1,0 +1,13 @@
+{
+        "explorer.compactFolders": false,
+        "godotTools.editorPath.godot4": "${workspaceDir}/C.E.O. Dev Essentials/tools/Godot 4.7.2 Linux/godot.x86_64",
+        "editor.tabSize": 8,
+        "editor.insertSpaces": true,
+        "editor.detectIndentation": false,
+        "files.exclude": {
+            "**/.git": false
+        },
+        "[gdscript]": {
+            "editor.insertSpaces": false
+        }
+}
