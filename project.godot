@@ -1,0 +1,119 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[accessibility]
+
+general/updates_per_second=100
+
+[application]
+
+config/name="C.E.O."
+config/description="Akcja toczy się w biurokratycznej megakorporacji.
+Gracz wciela się w bezwzględnego Prezesa Zarządu (CEO), który nie walczy
+orężem w lochach, lecz zarządza biurowym imperium na dwóch przenikających
+się płaszczyznach"
+config/version="0.0.0"
+run/main_scene="uid://vplxqyvm8l8s"
+run/print_header=false
+config/use_custom_user_dir=true
+config/custom_user_dir_name="TPKKKK/C.E.O."
+config/disable_project_settings_override=true
+config/quit_on_go_back=false
+config/features=PackedStringArray("4.7", "GL Compatibility")
+boot_splash/bg_color=Color(0.38999924, 0.3899992, 0.3899992, 1)
+boot_splash/use_filter=false
+boot_splash/image="uid://db3gc4oog4wxp"
+config/icon="uid://db3gc4oog4wxp"
+boot_splash/minimum_display_time=1000
+
+[audio]
+
+general/text_to_speech=true
+
+[debug]
+
+file_logging/enable_file_logging=true
+file_logging/log_path="user://Logs/C.E.O.log"
+file_logging/max_log_files=10
+canvas_items/debug_redraw_time=2.0
+
+[display]
+
+window/size/viewport_width=1080
+window/size/viewport_height=1920
+window/size/resizable=false
+window/size/extend_to_title=true
+window/size/sharp_corners=true
+window/size/minimize_disabled=true
+window/size/maximize_disabled=true
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+window/handheld/orientation=5
+
+[editor]
+
+movie_writer/mix_rate=44100
+movie_writer/video_quality=1.0
+movie_writer/audio_bit_depth=32
+movie_writer/ogv/audio_quality=1.0
+movie_writer/ogv/encoding_speed=1
+movie_writer/disable_vsync=true
+naming/node_name_num_separator=1
+naming/scene_name_casing=1
+naming/script_name_casing=1
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/Ceo_Dev/plugin.cfg", "res://addons/GodotGooglePlayBilling/plugin.cfg")
+
+[filesystem]
+
+import/fbx2gltf/enabled=false
+import/blender/enabled=false
+
+[gui]
+
+theme/default_font_antialiasing=0
+
+[input_devices]
+
+pointing/android/enable_pan_and_scale_gestures=true
+pointing/emulate_touch_from_mouse=true
+pointing/emulate_mouse_from_touch=false
+
+[internationalization]
+
+rendering/root_node_layout_direction=1
+rendering/root_node_auto_translate=false
+pseudolocalization/replace_with_accents=false
+
+[navigation]
+
+pathfinding/max_threads=8
+
+[physics]
+
+3d/physics_engine="Jolt Physics"
+common/physics_interpolation=true
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0
+rendering_device/driver.windows="d3d12"
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/vram_compression/import_etc2_astc=true
+textures/lossless_compression/force_png=true
+lights_and_shadows/use_physical_light_units=true
+textures/default_filters/anisotropic_filtering_level=0
+viewport/hdr_2d=true
+anti_aliasing/quality/use_debanding=true
+viewport/transparent_background=true
+occlusion_culling/use_occlusion_culling=true
